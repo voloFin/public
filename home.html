@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<title>mmmmmmmmm</title>
-
+    <meta name="viewport" content="width=device-width" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <title>mmmmmmmmm</title>
 </head>
+
 <body>
-
-	<h1> TEST </h1>
-	<ul>
-		<li><i class="fas fa-paper-plane"></i>1</li>
-		<li>2</li>
-		<li>3</li>
-	</ul>
-
+    <header>
+        <nav>
+            <!-- > 760 px screen navbar -->
+            <div class="container">
+                <h1 class="logo"> LOGO </h1>
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+                <label class="menubtn" for="mobile-menu-toggle"><i class="fas fa-paper-plane"></i></label>
+            </div>
+            <!-- mobile hidden menu -->
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+            <ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bod">
+        <p class="content"> hey <br><br/> This is a tagline 
+            <h1 class="tagline"> TEST </h1>
+        </p>
+    </div>
+    <div class="filler">
+        <p>ipsum</p>
+    </div>
 </body>
+
 </html>

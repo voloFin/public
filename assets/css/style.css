@@ -1,0 +1,110 @@
+html {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+div.container {
+    top: 0;
+    position: fixed;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    background: blue;
+    width: 100%;
+    color: white;
+    box-shadow: 0px 5px 5px grey;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.navbar {
+    float: right;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: all 1s ease;
+    background-color: white;
+    color: blue;
+}
+
+.bod {
+    background: url(../images/pp.gif) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     /* Set rules to fill background */
+  	min-width: 100%;
+}
+
+.content {
+    align-content: center;
+	text-align: left;
+    display: block;
+    height: 200px;
+    color: white;
+    margin-top: 40px;
+    padding-top: 4em;
+    padding-left: 2.5em;
+
+}
+.filler {
+    height: 200px;
+    background: blue;
+    color: white;
+}
+.tagline{
+text-align: left;
+line-height: 200px;
+margin-left: 2.5em;
+
+}
+
+
+
+
+/*
+Mobile Phone Styling 
+================================================================================
+*/
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 30px;
+    }
+    .logo {
+        float: left;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    .content{
+    	padding-left: 1em;
+    }
+}
+
+
+
+
+/*
+End mobile phone styling 
+=================================================================================
+*/
