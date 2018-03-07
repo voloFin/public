@@ -87,13 +87,13 @@ html {
 .page-link {
     text-decoration: none;
     font-size: 1.4em;
-    color: #5e7ba9;
+    color: #223F6D;
     padding-bottom: .2em;
 }
 /* nav header link hover state */
 .page-link:hover {
-    color: #365381;
-    border-bottom: .15em solid #365381;
+    color: #5e7ba9;
+    border-bottom: .15em solid #5e7ba9;
 }
 /* wrapper for background image that sits behind hero text */
 .hero-wrapper {
@@ -252,11 +252,11 @@ footer {
 
 .footer-link {
     text-decoration: none;
-    color: #5e7ba9;
+    color: #223F6D;
     line-height: 1.6em;
 }
 .footer-link:hover {
-    color: #365381;
-    border-bottom: .15em solid #365381;
+    color: #5e7ba9;
+    border-bottom: .15em solid #5e7ba9;
 }
 
