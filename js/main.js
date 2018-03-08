@@ -1,6 +1,6 @@
-'use-strict';
+/*'use-strict';
 
-/*var animatedNav = function() {
+var animatedNav = function() {
     $(window).stop().on("scroll", function() {
         var scrollLocation = $(window).scrollTop();
         var gridPos = $("#main").position();
@@ -16,7 +16,7 @@
             $(".volo").attr("src","images/logo-light.png");
         };
     });
-};*/
+};
 
 var clickableButton = function() {
     $(document.body).on("mousedown", ".clickable", function() {
@@ -28,6 +28,6 @@ var clickableButton = function() {
 };
 
 $(document).ready(function() {
-    /*animatedNav();*/
+    /*animatedNav();
     clickableButton();
-});
+});*/

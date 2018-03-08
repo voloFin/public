@@ -1,18 +1,16 @@
-/*
-
-Custom Color Scheme:
-L: #c0dcff
-P: #8eaadb
-SD: #5e7ba9
-DR: #365381
-VD: #223F6D
-
-Gray Colors:
-#EEEEEE
-#E7E7E7
-#CFCFCF
-#1D2731
-*/
+:root {
+    /*blues*/
+    --blue0: #c0dcff;
+    --blue1: #8eaadb;
+    --blue2: #5e7ba9;
+    --blue3: #365381;
+    --blue4: #223F6D;
+    /*grays*/
+    --gray0: #E7E7E7;
+    --gray1: #CFCFCF;
+    --gray2: #BABABA;
+    --gray3: #A6A6A6;
+}
 
 /* global style settings*/
 html {
@@ -42,20 +40,29 @@ html {
     transition: background .1s linear;
     box-shadow: 0 .2em .5em rgba(0,0,0,.26);
 }
-/*hover state for clickable link*/
-.clickable:hover {
-    background: #365381;
-}
 /*spacing between icon and text*/
 .clickable i {
     margin-left: 1em;
 }
+/*hover state for clickable link*/
+.clickable:hover {
+    background: #365381;
+}
+.clickable:active {
+    box-shadow: none;
+}
+
 /*styling for images; keeps them cropped and centered*/
 .cropped-img {
     width: 100%;
     height: 100%;
     border-radius: .3em;
     object-fit: cover;
+}
+
+.active {
+    color: #223F6D;
+    border-bottom: .15em solid #223F6D; 
 }
 /*styling for the header navigation*/
 .nav-grid {
