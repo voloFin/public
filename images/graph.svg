@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graph">
+            <circle id="Oval-7" fill="#FFFFFF" cx="62" cy="62" r="62"></circle>
+            <path d="M92,60.2253967 L100,52.2253967 L100,103 L19,103 L19,95 L92,95 L92,60.2253967 Z M92,33.3553391 L92,22 L100,22 L100,25.3553391 L92,33.3553391 Z" id="graph-xy" fill="#CFCFCF"></path>
+            <g id="plane" transform="translate(68.000000, 30.000000)">
+                <polygon id="shading" fill="#BABABA" points="32 26.0025388 24 42 24 30.2253967 32 22.2253967"></polygon>
+                <polygon id="main-triangle" fill="#C0DCFF" points="36.7695526 0.485281374 16.9705627 37.254834 12 29 6.36776733 26.6520386 0 20.2842712"></polygon>
+                <polygon id="dark-triangle" fill="#8EAADB" points="36.7695526 0.485281374 12 29 6.36396103 26.6482323"></polygon>
+                <polygon id="bottom-light-triangle" fill="#C0DCFF" points="36.7450216 0.515905534 18 38 10 31"></polygon>
+            </g>
+            <polyline id="Line" stroke="#A6A6A6" stroke-width="4" stroke-linecap="square" points="21 90 50.4054054 90 72 65"></polyline>
+        </g>
+    </g>
+</svg>
