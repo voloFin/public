@@ -11,7 +11,6 @@
     --gray2: #BABABA;
     --gray3: #A6A6A6;
 }
-
 /* global style settings*/
 html {
     font-size: 10px;
@@ -60,10 +59,6 @@ html {
     object-fit: cover;
 }
 
-.active {
-    color: #223F6D;
-    border-bottom: .15em solid #223F6D; 
-}
 /*styling for the header navigation*/
 .nav-grid {
     box-sizing: border-box;
@@ -102,7 +97,12 @@ html {
     color: #5e7ba9;
     border-bottom: .15em solid #5e7ba9;
 }
-/* wrapper for background image that sits behind hero text */
+/* active class show site location */
+.active {
+    color: #223F6D;
+    border-bottom: .15em solid #223F6D; 
+}
+/* homepage wrapper for background image that sits behind hero text */
 .hero-wrapper {
     position: relative;
     box-sizing: border-box;
@@ -113,7 +113,7 @@ html {
     background: url("../images/alloy.png");
     background-size: cover;
 }
-/* hero text div */
+/* home hero text div */
 .hero-text {
     box-sizing: border-box;
     margin-right: auto;
@@ -123,12 +123,12 @@ html {
     max-width: 130em;
     color: #FFF;
 }
-/* hero tect h1 styling */
+/* home hero tect h1 styling */
 .hero-text h1 {
     font-size: 4.5em;
     text-shadow: 0 .02em .05em rgba(62,65,85, 0.8);
 }
-/* hero text p styling */
+/* home hero text p styling */
 .hero-text p {
     font-size: 1.6em;
     line-height: 1.4em;
@@ -137,7 +137,7 @@ html {
     width: 33em;
 }
 
-/* #main page grids */
+/* home page grids */
 
 .tagline-grid {
     box-sizing: border-box;
@@ -217,7 +217,6 @@ footer {
     width:100%;
     margin-left: auto;
     margin-right: auto;
-    /*max-width: 130em;*/
     background: #FFF;
 }
 
@@ -229,7 +228,7 @@ footer {
     grid-row-gap: 0;
     grid-template-columns: minmax(20em, 1fr) minmax(20em, 35em) minmax(20em, 1fr);
     grid-template-rows: max-content max-content;
-    padding: 3em 9em 0 9em;
+    padding: 3em 5em 0 5em;
     font-size: 1.4em;
     line-height: 1.4em;
     background: #fff;
@@ -265,5 +264,11 @@ footer {
 .footer-link:hover {
     color: #5e7ba9;
     border-bottom: .15em solid #5e7ba9;
+}
+
+/*content page styling */
+.content-wrapper {
+    padding: 8em 9em 0 9em;
+    
 }
 
